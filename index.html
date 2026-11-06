@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modus Light — Descarga Oficial & Ecosistema B2B</title>
+    <style>
+        /* --- ESTILOS GENERALES (Manual de Marca) --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 60px;
+            border-bottom: 1px solid #222222;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+        }
+
+        .nav-link {
+            color: #888888;
+            text-decoration: none;
+            font-size: 13px;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #FFFFFF;
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            max-width: 900px;
+            margin: 100px auto 70px auto;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .badge-live {
+            display: inline-block;
+            background-color: rgba(20, 255, 0, 0.1);
+            color: #14FF00;
+            border: 1px solid #14FF00;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            font-size: 52px;
+            font-weight: 700;
+            letter-spacing: -1.5px;
+            margin-bottom: 20px;
+            color: #FFFFFF;
+            line-height: 1.15;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #888888;
+            max-width: 650px;
+            margin: 0 auto 36px auto;
+        }
+
+        /* --- GRUPO DE BOTONES PRINCIPALES --- */
+        .cta-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        /* Botón de Descarga Principal (Estilo Apple / Minimalista) */
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #FFFFFF;
+            color: #000000;
+            padding: 16px 36px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 15px;
+            text-decoration: none;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-download:hover {
+            background-color: #14FF00;
+            color: #000000;
+            box-shadow: 0 0 25px rgba(20, 255, 0, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .download-meta {
+            font-size: 12px;
+            color: #888888;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            color: #888888;
+            padding: 8px 16px;
+            font-size: 13px;
+            text-decoration: none;
+            transition: color 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn-secondary:hover {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+
+        /* --- SECCIÓN DE CARACTERÍSTICAS (GRID) --- */
+        .features {
+            max-width: 1000px;
+            margin: 80px auto 120px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: #000000;
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            padding: 30px;
+            transition: border-color 0.3s;
+        }
+
+        .card:hover {
+            border-color: #14FF00;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #FFFFFF;
+        }
+
+        .card p {
+            font-size: 13px;
+            color: #888888;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #222222;
+            color: #888888;
+            font-size: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .features { grid-template-columns: 1fr; }
+            h1 { font-size: 36px; }
+            header { padding: 20px 30px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">MODUS LIGHT</div>
+        <a href="#contacto" class="nav-link">Acceso Empresas</a>
+    </header>
+
+    <section class="hero">
+        <div class="badge-live">● VERSIÓN 1.0 DISPONIBLE</div>
+        <h1>Concéntrate en lo que importa. Medición local de Deep Work.</h1>
+        <p>Cliente de escritorio ultraliviano con monitoreo de cadencia, soporte para hardware LED físico y soberanía total de datos.</p>
+        
+        <!-- CONTENEDOR PRINCIPAL DE DESCARGA -->
+        <div class="cta-group">
+            <!-- Reemplaza el href con el enlace a tu ejecutable (.exe) o release de GitHub -->
+            <a href="https://github.com/TU_USUARIO/TU_REPOSITORIO/releases/download/v1.0.0/ModusLight_Setup.exe" class="btn-download">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Descargar Modus Light para Windows
+            </a>
+            <span class="download-meta">Windows 10 / 11 (64-bit) • Gratuito & Local-First</span>
+        </div>
+
+        <div>
+            <a href="#contacto" class="btn-secondary">¿Buscas el plan corporativo B2B? Solicitar Demo →</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>Cero Micro-management</h3>
+            <p>Visualiza tu nivel de enfoque y racha personal sin registrar contenidos privados, capturas de pantalla ni teclas individuales.</p>
+        </div>
+        <div class="card">
+            <h3>Arquitectura Local-First</h3>
+            <p>Tus datos residen en tu equipo local (`SQLite`) y sincronizan resúmenes opcionales mediante autenticación criptográfica JWT.</p>
+        </div>
+        <div class="card">
+            <h3>Hardware Integrado</h3>
+            <p>Soporte nativo para cubos con anillos LED y microcontroladores mediante comunicación serial USB en tiempo real.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Modus Light Systems. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
